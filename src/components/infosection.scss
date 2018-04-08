@@ -1,0 +1,423 @@
+
+$font-basic: 'Roboto', sans-serif;
+$f-w-600:600;
+
+
+.custom-fluid{
+	max-width:1010px !important;
+	margin-top:-107px;
+}
+
+.wrapper{
+	
+}
+.top-info{
+	padding-top: 258px;
+}
+.age-education-info{
+	
+	height:333px;
+	background-color:#fff;
+	
+	
+
+	span{
+		font-size: 26px;
+		font-family: $font-basic;
+		font-weight: $f-w-600;
+		    margin-left: 57px;
+
+	}
+}
+.shadow{
+	min-width: 674px;
+    height: 222px;
+    padding: 0px;
+    position: absolute;
+    bottom: 3px;
+    right: -1px;
+    z-index: -7;
+    background: #F8F8F8;
+    border: solid #BDBDBD 0;
+    box-shadow: 1px 11px 23px #d2d2d2;
+    -webkit-box-shadow: 1px 11px 23px #d2d2d2;
+    -moz-box-shadow: 1px 11px 23px #d2d2d2;
+    background: #fff;
+}
+
+.icon-with-text{
+	margin-top:60px;
+}
+
+.age-education-card{
+	max-width:240px;
+	height:435px;
+	background-color:#fff;
+	margin-left:16px;
+}
+.card-info-header{
+	    padding-left: 0px;
+}
+.shadow-card{
+	position: absolute;
+    top: 1;
+    top: 106px;
+    width: 239px;
+    height: 328px;
+    box-shadow: 1px 11px 23px #d2d2d2;
+    -webkit-box-shadow: 0px 4px 23px #d2d2d2;
+    -moz-box-shadow: 1px 11px 23px #d2d2d2;
+
+}
+.icon-content { 
+  width: 33px;
+  height: 21px;
+  display: inline-block; 
+  background-image: url(assets/content-icon.jpg);
+  vertical-align: middle;
+  position:relative;
+  top:-.1em;
+
+}
+.head-ico{
+	left: 38px;
+}
+.leaf{
+	background-image: url(assets/leaf-icon.png);
+	width:30px;
+	height:32px;
+	background-repeat:no-repeat;
+	top:-11px;
+}
+
+.arrow{
+	background-image: url(assets/arrow.png);
+	background-repeat:no-repeat;
+	left: 60px;
+}
+.info-header{
+	padding-left: 118px;
+	span{
+		font-size: 40pt;
+		color:#fff;
+		font-family: $font-basic;
+		font-weight: 300;
+		margin-left:19px;
+
+
+	}
+	p{
+		font-size:14pt;
+		color:#fff;
+		line-height: 9px;
+		margin-left: 52px;
+		font-weight: Light;
+		font-family: $font-basic;
+
+	}
+}
+
+.cource{
+	font-size:40pt;
+	color:#fff;
+	line-height:66px;
+
+}
+
+.e-lang{
+	font-size:14pt;
+	font-family: $font-basic;
+	font-weight: Light;
+	color:#fff;
+	line-height:1px;
+}
+
+
+
+
+.styled-p{
+	max-width:500px;
+	font-size:14px;
+	font-family: $font-basic;
+	font-weight: 600;
+	padding-top: 30px;
+    
+    margin-left: 93px;
+
+}
+
+.second-info-card{
+	
+	margin-top: -84px;
+	height: 127px;
+}
+
+/*styling card*/
+.age-education-card{
+	padding:0px;
+}
+.star{
+	float: right;
+    margin-top: 11px;
+    margin-right: 23px;
+    margin-bottom: 14px;
+}
+
+.card-image{
+	img{
+		margin-left:10px;
+		display: block;
+	}
+}
+
+.z-index-img{
+	width:85px;
+	height:85px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	position:absolute;
+	top:-20px;
+	left: 23px;
+	background-image:url(assets/z-index-logo.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+}
+
+.card-main-info{
+	width: 196px;
+	height:112px;
+	margin:auto;
+	background-image: url(assets/checkbox.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+
+.card-main-info{
+	margin-top:22px;
+	h4{
+		font-family: $font-basic;
+		font-weight: 400;
+		font-size: 18px;
+		padding-left: 33px;
+		color:#000000;
+	}
+
+	p{
+		line-height: 17px;
+		font-size: 14px;
+		font-family: $font-basic;
+		font-weight: 600;
+		color:#585858;
+		padding-top: 9px;
+	}
+}
+
+.devider{
+	width:216px;
+	height: 1px;
+	background-color:#d1d1d1;
+	margin:4px auto;
+}
+
+.location{
+	width:85px;
+	height:40px;
+	margin-left: 21px;
+    margin-top: 17px;
+	background-image: url(assets/map-point.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+
+	p{
+		font-family: $font-basic;
+		font-weight: 400;
+		font-size: 14px;
+		color:#979797;
+		padding-left: 23px;
+	}
+
+}
+.age-education-info{
+	z-index: 1;
+}
+
+.age-education-info-second{
+	height: 109px;
+	    box-shadow: 1px 11px 23px #d2d2d2;
+    -webkit-box-shadow: 0px 4px 23px #d2d2d2;
+    -moz-box-shadow: 1px 11px 23px #d2d2d2;
+}
+
+.icon-with-text-second{
+	margin-top:35px;
+}
+
+.arrow-down{
+	transform: rotate(180deg);
+    top: -11px;
+}
+
+
+/*Media section*/
+@media only screen and (max-width: 1200px) {
+    
+	.info-header {
+    padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 1017px) {
+    
+	
+	.age-education-info-second{
+		margin-top: 13px;
+		height: 127px;
+	}
+	.age-education-info{
+		height: auto;
+	}
+	.shadow-m{
+		-webkit-box-shadow: 0px 5px 7px 0px rgba(210,210,210,1);
+		-moz-box-shadow: 0px 5px 7px 0px rgba(210,210,210,1);
+		box-shadow: 0px 5px 7px 0px rgba(210,210,210,1);
+	}
+
+	.shadow{
+		display: none;
+	}
+	.card-info-header{
+		display: none;
+	}
+	.age-education-info{
+		
+		margin:auto;
+	}
+	.shadow{
+		min-width: 668px;
+	}
+	.second-info-card{
+		margin-top: 13px;
+		height: 127px;
+	}
+
+	.arrow-down{
+		display: none;
+	}
+
+	.arrow{
+		display: none;
+	}
+	.info-header{
+		display: none;
+	}
+
+	.pdd{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.head-ico{
+		margin: auto;
+		display: block;
+	}
+
+	.icon-with-text{
+		span{
+			display: block;
+			text-align: center;
+			margin-left: 0px;
+		}
+	}
+
+	.styled-p{
+		margin-left:0px;
+		padding-bottom: 80px;
+		font-size: 16px;
+	}
+
+	.head-ico{
+		left: 0px;
+	}
+
+	.age-education-card {
+    max-width: 240px;
+    height: 409px;
+    background-color: #fff;
+    margin-left: 16px;
+}
+}
+
+@media only screen and (min-width: 1006px) {
+    
+	.info-header-mobile{
+		display: none;
+	}
+
+	.age-education-card-m{
+		display: none;
+	}
+	
+
+
+
+}
+
+@media only screen and (max-width: 717px) {
+    
+	.second-info-card{
+		min-height: 150px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 1007px) {
+    
+	.second-info-card{
+		min-height: 150px;
+	}
+	.shadow-m{
+		margin-top: 44px;
+	}
+	.desctop-card{
+		display: none;
+	}
+	.top-info{
+		padding-top: 522px;
+	}
+
+	.age-education-card {
+    max-width: 306px;
+    height: 442px;
+    background-color: #fff;
+    margin-left: 16px;
+	}
+	.location{
+		margin-left: 51px;
+	}
+	.devider{
+		width:268px;
+	}
+
+	.mobile-card{
+		position: absolute;
+		margin-top: 30px;
+	}
+	.card-main-info{
+		height:101px;
+	}
+	.card-image{
+		img{
+			margin-left: 10px;
+    		display: block;
+    		width: 283px;
+		}
+	}
+
+}
+
+.age-education-card-m{
+	margin:auto;
+}
